@@ -8,173 +8,102 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
-    
+    <link rel="stylesheet" href="stylesheets/layout.css">
+    <link rel="stylesheet" href="stylesheets/mystyles.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/assets/js/html5shiv.js"></script>
       <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/assets/js/respond.min.js"></script>
     <![endif]-->
     <style>
-    body {
-      background: rgb(182, 204, 228);
-    }
-    .me {
-      position: fixed;
-      bottom: 0;top: 0;
-      right: 0;
-      background-size: 1000px;
-      background-image: url("images/20130828_185326_HDR.jpg");
-      width: 1000px;
-    }
-    .main-content {
-      background: #EEE;
-      box-shadow: 0 0 10px rgba(0,0,0,.5);
-      z-index: 10;
-      padding: 10px;
-      width: 600px;
-      font-weight: bold;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      min-height: 1000px;
-    }
-    #icon {
-      max-width: 120px;
-      margin: 10px;
-    }
-    .my-header img {
-      max-width: 320px;
-    }
-    .main-content p {
-      margin-bottom: 20px;
-    }
-    .panel-body h3 {
-      margin-top: 10px;
-    }
-    .my-header {
-      margin: 20px -10px;
-      padding: 5px 0;
-      background-position: 0px -200px;
-      background-size: 600px;
-      
-      height: 200px;
-      color: rgb(77, 91, 107);
-      font-weight: bold;
-    }
-    .screen-shot {
-      margin: 20px;
-    }
-    @media (max-width: 600px) {
-      .me {
-        display: none;
-      }
-      .main-content {
-        width: 100%;
-      }
-      #forkme_banner {
-        right: 0px;
-      }
-    }
-    @media (min-width: 1600px) {
-      .main-content {
-        right: 1000px;
-      }
-    }
-    
-#forkme_banner {
-display: block;
-position: absolute;
-top: 0;
-right: -5px;
-z-index: 10;
-padding: 10px 50px 10px 10px;
-color: #fff;
-background: url('images/blacktocat.png') #0090ff no-repeat 95% 50%;
-font-weight: 700;
-box-shadow: 0 0 10px rgba(0,0,0,.5);
-border-bottom-left-radius: 2px;
-border-bottom-right-radius: 2px;
-}
+
     </style>
   </head>
   <body>
-    <div class="main-content">
+    <div class="main-content-wrap"><div class="main-content">
+          
+      <a id="forkme_banner" href="https://github.com/nathanathan">View on GitHub</a>
+          
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h1>Nathan Breit <br /> <small>Software Developer</small></h1>
+          </div>
+        </div>
+      
+      <div class="panel panel-default">
+      <div class="panel-heading">My Side Projects</div>
+        <div class="panel-body">
+      
+          <p><a href="http://zhongwengarden.com">中文 Garden</a> - A game based on memorizing Chinese characters</p>
+          
+          <p><a href="https://github.com/nathanathan/Language">Language</a> - A crowdsourcing approach to natural language programming.</p>
+          
+          <p><a href="http://nathanathan.github.com/cfg-gen/">cfg-gen</a> - An Interface for generating things from context-free grammars.</p>
+      
+        </div>
+      </div>
+      
+      <div class="panel panel-default">
+        <div class="panel-heading">Previous Employment</div>
+        <div class="panel-body">
+      
+          <h4>
+          <a name="university-of-washington-cse" class="anchor" href="#university-of-washington-cse"><span class="octicon octicon-link"></span></a>University of Washington CSE</h4>
+          
+          <p><em>(2011-2013)</em></p>
+          
+          <p>Projects:</p>
+          
+          <ul>
+          <li>Interpreter Connect, a system for coordinating over-the-phone Spanish interpretation sessions.</li>
+          <li>ODK Survey, a HTML/js mobile data collection tool similar to ODK Collect</li>
+          <li>FreeSpeech, a Cordova app for guiding, recording and annotating interviews.</li>
+          <li>TextGenerator, a web application for generating images of indic text.</li>
+          <li>Maintenance programming on XLSForm.</li>
+          </ul><h4>
+          <a name="villagereach" class="anchor" href="#villagereach"><span class="octicon octicon-link"></span></a>VillageReach</h4>
+          
+          <p><em>(Summer of 2011)</em></p>
+          
+          <ul>
+          <li>ODK Scan, an android app for digitizing paper forms via camera. (continued development at UW)</li>
+          </ul><h4>
+          <a name="city-of-bellevue" class="anchor" href="#city-of-bellevue"><span class="octicon octicon-link"></span></a>City of Bellevue</h4>
+          
+          <p><em>(Summer/winter of 2007 &amp; summer 2008)</em></p>
+          
+        </div>
+      </div>
+      
+      <div class="panel panel-default">
+        <div class="panel-heading">Contact Information</div>
+        <div class="panel-body">
+
+          <p><a href="mailto:nath@nathanathan.com">nath@nathanathan.com</a></p>
+          
+        </div>
+      </div>
+      
+      
+    </div></div>
     
-<a id="forkme_banner" href="https://github.com/nathanathan">View on GitHub</a>
-    
-<div class="panel panel-default">
-  <div class="panel-body">
-    <h1>Nathan Breit <small>is a Software Developer</small></h1>
-    </div>
-  </div>
-
-<div class="panel panel-default">
-<div class="panel-heading">Current projects</div>
-  <div class="panel-body">
-
-<p><a href="http://zhongwengarden.com">中文 Garden</a> - A game based on memorizing Chinese characters</p>
-
-<p><a href="https://github.com/nathanathan/BirdEscape">Bird Escape</a> - An IVR room escape game for practicing Mandarin</p>
-
-<p><a href="https://github.com/nathanathan/Language">Language</a> - A crowdsourcing approach to natural language programming.</p>
-
-<p><a href="http://nathanathan.github.com/cfg-gen/">cfg-gen</a> - An Interface for generating things from context-free grammars.</p>
-
-</div></div>
-
-<div class="panel panel-default">
-<div class="panel-heading">Previous Work</div>
-  <div class="panel-body">
-
-<h4>
-<a name="university-of-washington-cse" class="anchor" href="#university-of-washington-cse"><span class="octicon octicon-link"></span></a>University of Washington CSE</h4>
-
-<p><em>(2011-2013)</em></p>
-
-<p>Projects:</p>
-
-<ul>
-<li>Interpreter Connect, a system for coordinating over-the-phone Spanish interpretation sessions.</li>
-<li>ODK Survey, a HTML/js mobile data collection tool similar to ODK Collect</li>
-<li>FreeSpeech, a Cordova app for guiding, recording and annotating interviews.</li>
-<li>TextGenerator, a web application for generating images of indic text.</li>
-<li>Maintenance programming on XLSForm.</li>
-</ul><h4>
-<a name="villagereach" class="anchor" href="#villagereach"><span class="octicon octicon-link"></span></a>VillageReach</h4>
-
-<p><em>(Summer of 2011)</em></p>
-
-<ul>
-<li>ODK Scan, an android app for digitizing paper forms via camera. (continued development at UW)</li>
-</ul><h4>
-<a name="city-of-bellevue" class="anchor" href="#city-of-bellevue"><span class="octicon octicon-link"></span></a>City of Bellevue</h4>
-
-<p><em>(Summer/winter of 2007 &amp; summer 2008)</em></p>
-      </section>
-
-
-
-  </div></div>
-
-
-</div>
-    <div class="me"></div>
+    <div class="big-image"></div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="//code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
     
-                  <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-37075552-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      try {
+        var pageTracker = _gat._getTracker("UA-37075552-1");
+      pageTracker._trackPageview();
+      } catch(err) {}
+    </script>
     
   </body>
 </html>
